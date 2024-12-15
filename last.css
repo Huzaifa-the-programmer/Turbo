@@ -1,0 +1,2331 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width:100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+ }
+header{
+    height:27vh;
+    width:100%;
+    /* background-color: rgb(200, 255, 0); */
+    position: absolute;
+}
+ 
+ .bottom{
+    height:50%;
+    width:100vw;
+    /* background-color: rgb(69, 182, 2.8); */
+    display: flex;
+ }
+ .bottom_left{
+    height:100%;
+    width:25%;
+    /* background-color: antiquewhite; */
+ }
+ .bottom_left_image{
+    height:91%;
+    width:21%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:55%;
+  }
+ .bottom_center{
+    height:100%;
+    width:50%;
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding-top:2%;
+ 
+   }
+  .list_items{
+   position: relative;
+   color: black;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:14px;
+   font-weight:600;
+   margin:4%;
+   color: #ffffffff;
+  }
+    .list_items::after{
+    content:"";
+    position: absolute;
+    background-color:#ff85a9;
+    height:2px;
+    width:0%;
+    left:-0%;
+    bottom:-25%;
+    transition:all 0.3s;
+    color: black;
+   }
+  .list_items:hover::after{
+   width:100%;
+
+  }
+  .list_items:hover{
+   width:100%;
+   color:red;
+  }
+  .bottom_right{
+   height:100%;
+   width:12%;
+   /* background-color: aqua; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   }
+    .icon1{
+      height:50%;
+      width:2%;
+      /* background-color: antiquewhite; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon1 i{
+      font-size:1.6rem;
+      color: #ffffffff;
+    }
+    .icon1 i:hover{
+      font-size:1.9rem;
+      color: red;
+    }
+ main{
+   height:100%;
+   width:100%;
+   background-color: aqua;
+ }
+ .page1{
+   height:100vh;
+   width:100%;
+   overflow: hidden;
+}
+ .page1 img{
+   height:100%;
+   width:100%;
+   /* background-color: aqua; */
+ object-fit: cover;
+ }
+ #page2{
+   height:45vh;
+   width:100%;
+   background-color:#232323;
+   display: flex;
+   align-items: center;
+   border-top:2px solid #ffffffff;
+ }
+ .img_1{
+   height:85%;
+   width:17%;
+   background-color:#232323;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .img_1 img{
+   height:100%;
+   width:88%;
+   transition: all 0.2s linear;
+ }
+ .img_1 img:hover{
+   height:105%;
+   width:92%;
+ }
+ .page3{
+   height:12%;
+   width:100%;
+   background-color:#232323;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .line{
+  height:2px;
+  width:25%;
+  background-color: #ffffffff;
+  border-radius:20px;
+  margin:0 10%;
+ }
+ .page3 h2{
+   font-size:1.11rem;
+   font-family: Arial, Helvetica, sans-serif; 
+   font-weight: 600;
+   display: inline-block;
+   color: #ffffffff;
+}
+.page4{
+   height:130%;
+   width:100%;
+   background-color:#232323;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+.page4_top{
+   display: flex;
+   height:46%;
+   width:87%;
+   /* background-color: #ff85a9; */
+   justify-content: space-evenly;
+}
+.page4_images{
+   height:100%;
+   width:28%;
+   /* background-color: antiquewhite; */
+   display: flex;
+   align-items: center;justify-content: center;
+}
+.page4_images img{
+   height:93%;
+   width:93%;
+   transition: all 0.2s linear;
+}
+.page4_images img:hover{
+   height:98%;
+   width:98%;
+}
+.page5{
+   height:15%;
+   width:100%;
+   background-color:#ffffffff;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.line2{
+   height:3px;
+   width:25%;
+   background-color:black;
+   margin:0 8%;
+   border-radius:1px;
+}
+
+.page5 h3{
+   font-size:1.1222rem;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   line-height:40px;
+}
+.page5 h3 span{
+   font-size:.8rem;
+   font-weight: 500;
+   font-family: Arial, Helvetica, sans-serif;
+   /* text-decoration: underline; */
+   color: #0a0a0a;
+   position: relative;
+}
+.page5 h3 span::after{
+   content: '';
+   position: absolute;
+   height:1px;
+   width:100%;
+   background-color: #0a0a0a;
+   left:.5%;
+   top:110%;
+}
+.page6{
+   height:50%;
+   width:100%;
+   /* background-color: aqua; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top:1%;
+
+}
+.descount{
+   height:20px;
+   width:40px;
+   background-color:#e95144;
+   font-size:.8rem;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #ffffffff;
+   letter-spacing:.5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.page6_top{
+   height:56%;
+   width:85%;
+   /* background-color: #ff85a9; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ 
+}
+.page6_sale_items{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(/s1.webp);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:2%;
+   margin-top:13.8%;
+}
+.img_bottom1 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom2 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom3 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button1{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page6_sale_items:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/MHO0056-LCM1.jpg?v=1731402862);
+   .heart i{
+      opacity:1;
+   }
+   .eye i{
+      opacity:1;
+   }
+   .img_bottom1 p{
+      opacity:1;
+   }
+   .img_bottom2 p{
+      opacity:1;
+   }
+   .img_bottom3 p{
+      opacity:1;
+   }
+   .button1{
+      opacity:1;
+   }
+ }
+ 
+ .page6{
+   height:50%;
+   width:100%;
+   /* background-color: aqua; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.page6_top{
+   height:56%;
+   width:85%;
+   /* background-color: #ff85a9; */
+   display: flex;
+   /* margin-top:2%; */
+}
+.page6_sale_items2{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/GRN_574ab04b-286c-48bf-8df3-7f4f8aaaebb2.jpg?v=1727968875);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart2 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye2 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom4 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom5 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom6 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button2{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page6_sale_items2:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/DGR-1_19cf2c1b-0f4f-4b97-9ce1-98d2e81c359a.jpg?v=1727968875);
+   .heart2 i{
+      opacity:1;
+   }
+   .eye2 i{
+      opacity:1;
+   }
+   .img_bottom4 p{
+      opacity:1;
+   }
+   .img_bottom5 p{
+      opacity:1;
+   }
+   .img_bottom6 p{
+      opacity:1;
+   }
+   .button2{
+      opacity:1;
+   }
+ }
+ 
+ .page6_top{
+   height:56%;
+   width:85%;
+   /* background-color: #ff85a9; */
+   display: flex;
+}
+.page6_sale_items3{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url( https://turbobrandsfactory.com/cdn/shop/files/BLK_1ad4a47e-6e13-4dd4-8aa3-fe179a22b377.jpg?v=1727968874);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart3 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye3 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom7 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom8 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom9 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button3{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page6_sale_items3:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/BLK-2_aa551c83-6dee-44c5-8d1e-dfa0d5cb15c6.jpg?v=1727968875);
+   .heart3 i{
+      opacity:1;
+   }
+   .eye3 i{
+      opacity:1;
+   }
+   .img_bottom7 p{
+      opacity:1;
+   }
+   .img_bottom8 p{
+      opacity:1;
+   }
+   .img_bottom9 p{
+      opacity:1;
+   }
+   .button3{
+      opacity:1;
+   }
+ }
+ 
+ 
+ .page6_top{
+   height:56%;
+   width:85%;
+   /* background-color: #ff85a9; */
+   display: flex;
+}
+.page6_sale_items4{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url( https://turbobrandsfactory.com/cdn/shop/files/MRN_791917a1-a61b-4e36-8b98-ce57085fbac3.jpg?v=1727968874);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart4 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye4 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom10 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom11 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom12 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button4{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page6_sale_items4:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/MRN-1.jpg?v=1727968875);
+   .heart4 i{
+      opacity:1;
+   }
+   .eye4 i{
+      opacity:1;
+   }
+   .img_bottom10 p{
+      opacity:1;
+   }
+   .img_bottom11 p{
+      opacity:1;
+   }
+   .img_bottom12 p{
+      opacity:1;
+   }
+   .button4{
+      opacity:1;
+   }
+ }
+  
+ .page6_top{
+   height:56%;
+   width:85%;
+   /* background-color: #ff85a9; */
+   display: flex;
+}
+.page6_sale_items5{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/BEG_364090bb-5e8b-4ba2-b574-bfa9d3230da8.jpg?v=1726664378);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart5 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye5 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom5 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom5 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom5 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button5{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page6_sale_items5:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/BEG_70c19340-3b7b-47e2-9d08-e8b3ea5771c0.jpg?v=1726664378);
+   .heart5 i{
+      opacity:1;
+   }
+   .eye5 i{
+      opacity:1;
+   }
+   .img_bottom5 p{
+      opacity:1;
+   }
+   .img_bottom5 p{
+      opacity:1;
+   }
+   .img_bottom5 p{
+      opacity:1;
+   }
+   .button5{
+      opacity:1;
+   }
+ }
+  
+ .page6_top{
+   height:56%;
+   width:85%;
+   /* background-color: #ff85a9; */
+   display: flex;
+}
+.page6_sale_items6{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/wht_3a089113-ce74-4a08-9757-36c2bf152371.jpg?v=1723198679);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart6 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye6 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom6 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom6 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom6 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button6{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;
+   font-family: var(--font-body-family);
+   letter-spacing: .02em;
+}
+ .page6_sale_items6:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/wht_46712477-ae24-4185-8c0d-b37e1ec95ab8.jpg?v=1723198679);
+   .heart6 i{
+      opacity:1;
+   }
+   .eye6 i{
+      opacity:1;
+   }
+   .img_bottom6 p{
+      opacity:1;
+   }
+   .img_bottom6 p{
+      opacity:1;
+   }
+   .img_bottom6 p{
+      opacity:1;
+   }
+   .button6{
+      opacity:1;
+   }
+ }
+ .page6_bottom{
+   height:35%;
+   width:85%;
+   /* background-color: bisque; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+ }
+ .page6_items1{
+   height:100%;
+   width:13.5%;
+   /* background-color: rgb(21, 255, 0); */
+   padding:.1px;
+ }
+ .page6_items1 p{
+   font-size:12px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   margin-top:2.8%;
+   line-height:20px;
+}
+.page6_items1 h5{
+   font-size:15px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: line-through;
+    
+margin-top:2.8%;
+}
+.page6_items1 span{
+   font-size:15px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   font-weight: 600;
+   margin-top:2.8%;
+   color: #e95144;
+}
+.page6_items1_img img{
+  height:32px;
+  width:32px;
+  /* background-color: #ff85a9; */
+  border-radius:50px;
+  border:.5px solid #000000;
+  margin-left:42%;
+  object-fit: cover;
+  margin-top:4%;
+}
+.page6_items1 p:hover{
+   text-decoration: underline;
+   cursor:context-menu;
+}
+ .page7{
+   height:15vh;
+   width:100%;
+   /* background-color: aqua; */
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+   padding:0 8%;
+ }
+ .line3{
+   height:2.5px;
+   width:29%;
+   background-color: #000000;
+ }
+ .page7 h3{
+   font-size:1.168rem;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height:180%;
+   text-align: center;
+ }
+ .page7 h3 span{
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight:500;
+   text-decoration: underline;
+ 
+ }
+.page8{
+   height:50%;
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top:2%;
+}
+.page8_top{
+   /* background-color: antiquewhite; */
+   height:56%;
+   width:85%;
+   /* background-color: #ff85a9; */
+   display: flex;
+   justify-content: space-around;
+}
+.page8_sale_items10{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/COF_2.jpg?v=1727441911);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart10 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye10 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+   position: relative;
+}
+.img_bottom10 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom10 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom10 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button10{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page8_sale_items10:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/COF_4.jpg?v=1727441911);
+   .heart10 i{
+      opacity:1;
+   }
+   .eye10 i{
+      opacity:1;
+   }
+   .img_bottom10 p{
+      opacity:1;
+   }
+   .img_bottom10 p{
+      opacity:1;
+   }
+   .img_bottom10 p{
+      opacity:1;
+   }
+   .button10{
+      opacity:1;
+   }
+ 
+ .page8_bottom10{
+   height:35%;
+   width:85%;
+   /* background-color: bisque; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+ }
+}
+ 
+ 
+.page8_sale_items11{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url( https://turbobrandsfactory.com/cdn/shop/files/OLV_3abbd7d9-2d2c-496b-b6a4-04260bc3e6ab.jpg?v=1727441911);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart11 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye11 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom11 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom11 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom11 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button11{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page8_sale_items11:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/OLV_828f7c09-b1e2-4236-bbed-78b5d160ff28.jpg?v=1727441911);
+   .heart11 i{
+      opacity:1;
+   }
+   .eye11 i{
+      opacity:1;
+   }
+   .img_bottom11 p{
+      opacity:1;
+   }
+   .img_bottom11 p{
+      opacity:1;
+   }
+   .img_bottom11 p{
+      opacity:1;
+   }
+   .button11{
+      opacity:1;
+   }
+ 
+ .page8_bottom11{
+   height:35%;
+   width:85%;
+   /* background-color: bisque; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+ }
+}
+ 
+.page8_sale_items12{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/MTJ0350-BLK_9fa3d01d-80e5-4e92-9cf7-3914a42685d6.jpg?v=1713366784);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart12 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye12 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom12 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom12 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom12 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button12{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page8_sale_items12:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/MTJ0350-BLK_dd0fd92d-c8d2-4683-af31-33d6025d5571.jpg?v=1713514260);
+   .heart12 i{
+      opacity:1;
+   }
+   .eye12 i{
+      opacity:1;
+   }
+   .img_bottom12 p{
+      opacity:1;
+   }
+   .img_bottom12 p{
+      opacity:1;
+   }
+   .img_bottom12 p{
+      opacity:1;
+   }
+   .button12{
+      opacity:1;
+   }
+ 
+ .page8_bottom12{
+   height:35%;
+   width:85%;
+   /* background-color: bisque; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+ }
+}
+ 
+.page8_sale_items13{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/blk_6fb9bbf4-a177-4715-91d8-0903d89307c0.jpg?v=1724942630);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart13 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye13 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom13 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom13 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom13 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button13{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page8_sale_items13:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/blk_90c6cf75-2414-4287-b9e5-81fa7ad10550.jpg?v=1724942630);
+   .heart13 i{
+      opacity:1;
+   }
+   .eye13 i{
+      opacity:1;
+   }
+   .img_bottom13 p{
+      opacity:1;
+   }
+   .img_bottom13 p{
+      opacity:1;
+   }
+   .img_bottom13 p{
+      opacity:1;
+   }
+   .button13{
+      opacity:1;
+   }
+ 
+ .page8_bottom13{
+   height:35%;
+   width:85%;
+   /* background-color: bisque; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+ }
+ }
+  
+.page8_sale_items14{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/BLK2_b42b3b60-9ec4-473e-b4e2-d99225ee29cc.jpg?v=1727441910);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart14 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye14 i{
+   font-size:1.12rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom14 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom14 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom14 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button14{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page8_sale_items14:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/BLK3_f528b802-abd8-4286-b806-b3a95891f322.jpg?v=1727441911);
+   .heart14 i{
+      opacity:1;
+   }
+   .eye14 i{
+      opacity:1;
+   }
+   .img_bottom14 p{
+      opacity:1;
+   }
+   .img_bottom14 p{
+      opacity:1;
+   }
+   .img_bottom14 p{
+      opacity:1;
+   }
+   .button14{
+      opacity:1;
+   }
+ 
+ .page8_bottom14{
+   height:35%;
+   width:85%;
+   /* background-color: bisque; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+ }
+ }
+   
+.page8_sale_items15{
+   height:100%;
+   width:13.5%;
+   /* background-color: aquamarine; */
+   position: relative;
+   padding:0.1px;
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/SKN_8dababb1-83a4-47f3-bbc4-c223af455085.jpg?v=1727441910);
+   background-size: cover;
+   transition: all .3s linear;
+}
+.heart15 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:10.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.eye15 i{
+   font-size:1.25rem;
+   padding:4px;
+   background-color:white;
+   border-radius:50px;
+   margin-left:77%;
+   margin-top:2.8%;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom_main{
+   height:15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:60%;
+   /* background-color: blue; */
+   margin-left:20%;
+   margin-top:40%;
+}
+.img_bottom15 p{
+    height:26px;
+    width:26px;
+   background-color:white;
+   border-radius:50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size:.85rem;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity:0;
+   transition: all .3s linear;
+}
+.img_bottom15 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0;
+  transition: all .3s linear;
+}
+.img_bottom15 p{
+   height:26px;
+   width:26px;
+  background-color:white;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+  opacity:0;
+  transition: all .3s linear;
+}
+.button15{
+   height:50px;
+   width:100%;
+   font-size:1.2111rem;
+   margin-top:10%;
+   border-radius:2px;
+  border:none;
+   background-color:white;
+   border:1px solid rgb(39, 39, 39);
+   opacity:0;
+   transition: all .3s linear;font-family: var(--font-body-family);letter-spacing: .02em;
+}
+ .page8_sale_items15:hover{
+   
+   background-image: url(https://turbobrandsfactory.com/cdn/shop/files/SKN_33293071-90af-4090-a2b6-37d373dc7790.jpg?v=1727441911);
+   .heart15 i{
+      opacity:1;
+   }
+   .eye15 i{
+      opacity:1;
+   }
+   .img_bottom15 p{
+      opacity:1;
+   }
+   .img_bottom15 p{
+      opacity:1;
+   }
+   .img_bottom15 p{
+      opacity:1;
+   }
+   .button15{
+      opacity:1;
+   }
+ 
+ .page8_bottom15{
+   height:35%;
+   width:85%;
+   /* background-color: bisque; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+ }
+ }
+ .page8_bottom{
+   height:35%;
+   width:80%;
+   /* background-color:#452562; */
+ }
+ .page8_bottom{
+   height:35%;
+   width:85%;
+   /* background-color: bisque; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    
+ }
+ .page8_items1{
+   height:100%;
+   width:13.5%;
+   /* background-color: rgb(21, 255, 0); */
+   padding:.1px;
+ }
+ .page8_items1 p{
+   font-size:12px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   margin-top:2.8%;
+   line-height:20px;
+}
+.page8_items1 h5{
+   font-size:15px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: line-through;
+    
+margin-top:2.8%;
+}
+.page8_items1 span{
+   font-size:15px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   font-weight: 600;
+   margin-top:2.8%;
+   color: #e95144;
+}
+.page8_items1_img img{
+  height:32px;
+  width:32px;
+  /* background-color: #ff85a9; */
+  border-radius:50px;
+  border:.5px solid #000000;
+  margin-left:42%;
+  object-fit: cover;
+  margin-top:4%;
+}
+.page8_items1 p:hover{
+   text-decoration: underline;
+   cursor:context-menu;
+}
+.page9{
+   margin-top:1%;
+   height:83vh;
+   width:100%;
+   /* background-color: aqua; */
+   display: flex;
+   justify-content: space-around;
+   padding:0 9%;
+}
+.left{
+   height:100%;
+   width:27%;
+   /* background-color: #ff85a9; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.left_heading{
+   height:9%;
+   width:100%;
+   /* background-color: aquamarine; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:0 4% 0 0;
+   
+   border-bottom: 2px solid #d8d7d7;
+}
+.left_heading h1{
+   font-size:25px;
+   font-family: "Funnel Sans", sans-serif;
+  font-weight: 700;
+  margin-top:5px;
+}
+.left_heading a{
+   font-size:12px;
+   font-family: "Funnel Sans", sans-serif;
+  margin-top:5px;
+  color: #3c3c3c;
+}
+.left1{
+   height:14%;
+   width:100%;
+   /* background-color: #e95144; */
+   display: flex;
+}
+.left1_img{
+   height:100%;
+   width:24%;
+   /* background-color: blue; */
+   overflow: hidden;
+}
+.left1_img img{
+   height:100%;
+   width:100%;
+   object-fit: cover;
+}
+.left1_right{
+   height:90%;
+   width:80%;
+   /* background-color: yellow; */
+}
+.left1_right p{
+  font-size:12px;
+  font-family: "Funnel Sans", sans-serif ;
+  margin:1% 0 0 8%;
+  line-height:20px;
+}
+.left1_right p:hover{
+   text-decoration: underline;
+}
+
+.left1_right h4{
+   font-size:15px;
+   font-family: "Funnel Sans", sans-serif ;
+   margin:2% 0 0 8%;
+   display: inline-block;
+   text-decoration: line-through;
+ }
+ .left1_right h5{
+   font-size:15px;
+   font-family: "Funnel Sans", sans-serif ;
+   margin:0% 0 0 2%;
+   display: inline-block;
+   color: #e95144;
+ }
+  .center{
+   height:100%;
+   width:27%;
+   /* background-color:blueviolet; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   }
+   .center_heading{
+      height:9%;
+      width:100%;
+      /* background-color: chocolate; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:0 5% 0 0;
+   border-bottom: 2px solid #d8d7d7;
+   }
+   .center_heading h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:24px;
+    }
+    .center_heading a{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:12px;
+      color:#3c3c3c ;
+    }
+    .center1{
+      height:15%;
+      width:100%;
+      /* background-color: yellow; */
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .center1_left{
+      height:95%;
+      width:24%;
+      /* background-color:violet; */
+    }
+    .center1_left img{
+      height:100%;
+      width:100%;
+      object-fit: cover;
+    }
+    .center1_right{
+      height:88%;
+      width:80%;
+      /* background-color:rgb(255, 0, 255); */
+    }
+    .center1_right p{
+      font-size:12px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin:1% 0 0 8%;
+    }
+    .center1_right p:hover{
+      text-decoration:underline;
+    }
+
+    .center1_right h4{
+      font-size:15px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin:4% 0 0 8%;
+      text-decoration: line-through;
+      display: inline-block;
+    }
+    .center1_right  h5{
+      font-size:15px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin:4% 0 0 2%;
+      color: #e95144;
+      display: inline-block;
+    }
+    .right{
+      height:100%;
+      width:27%;
+      /* background-color:blueviolet; */
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      }
+      .right_heading{
+         height:7.8%;
+         width:100%;
+         /* background-color: chocolate; */
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding:0 5% 0 0;
+         border-bottom: 2px solid #d8d7d7;
+      }
+      .right_heading h1{
+         font-family: Arial, Helvetica, sans-serif;
+         font-size:24px;
+         margin-bottom:2.8%;
+       }
+       .right_heading a{
+         font-family: Arial, Helvetica, sans-serif;
+         font-size:12px;
+         margin-bottom:2.8%;
+         color: #3c3c3c;
+       }
+       .right1{
+         height:15%;
+         width:100%;
+         /* background-color: yellow; */
+         display:flex;
+       }
+       
+       .right1_left{
+         height:100%;
+         width:24%;
+         /* background-color:violet; */
+       }
+       .right1_left img{
+         height:100%;
+         width:100%;
+         object-fit: cover;
+       }
+       .right1_right{
+         height:90%;
+         width:80%;
+         /* background-color:rgb(255, 0, 255); */
+       }
+       .right1_right p{
+         font-size:12px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin:1% 0 0 8%;
+         line-height:20px;
+       }
+       .right1_right p:hover{
+         text-decoration:underline;
+       }
+   
+       .right1_right h4{
+         font-size:15px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin:2% 0 0 8%;
+         text-decoration: line-through;
+         display: inline-block;
+       }
+       .right1_right  h5{
+         font-size:15px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin:2% 0 0 2%;
+         color: #e95144;
+         display: inline-block;
+       }
+       footer{
+         height:100%;
+         width:100%;
+         /* background-color: aqua; */
+         position: relative;
+         top:415%;
+       }
+       .page10{
+         height:32%;
+         width:100%;
+         /* background-color: yellow; */
+         padding:.1px;
+       }
+       .page10 h1{
+         font-size:25px;
+         font-family: "Inter", sans-serif;
+         font-weight: 800;
+         text-align: center;
+         margin-top:1%;
+       }
+       .page10 p{
+         font-size:14px;
+         font-family: "Inter", sans-serif;
+         font-weight: 500;
+         text-align: center;
+         margin-top:1%;
+         line-height:20px;
+         opacity:1;
+         
+         color: #3c3c3c;
+       }
+       .page10 h5{
+         font-size:25px;
+         font-family: "Inter", sans-serif;
+         text-align: center;
+         font-weight: 300;
+         opacity:1;
+         color: #3c3c3c;
+         margin-top:1%;
+       }
+       .page11{
+         height:65%;
+         width:100%;
+         background-color:#1a1919;
+         display: flex;
+       }
+       .page11_left{
+         margin-top:2%;
+         height:90%;
+         width:26%;
+         /* background-color:#502015; */
+         padding:.1px;
+         display: flex;
+         flex-direction: column;
+         margin-left:3%;
+       }
+       .page11_left h2{
+         font-size:21px;
+         font-family: "Inter", sans-serif;
+         font-weight: 800;
+         margin:3% 0 0 3%;
+         color: #ffffffff;
+       }
+
+       .page11_left a{
+         font-size:15px;
+         font-family: "Inter", sans-serif;
+         /* font-weight: 300; */
+         line-height:16px;
+         margin:6% 0 0 3%;
+                  transition:all 0.2s linear;
+         color: #ffffffff;
+         text-decoration: none;
+       }
+       .page11_left a:hover{
+         text-decoration: underline;
+         color: #6b6b6b;
+       }
+       .page11_center{
+         margin-top:2%;
+         height:90%;
+         width:26%;
+         /* background-color:#502015; */
+         padding:.1px;
+         display: flex;
+         flex-direction: column;
+       }
+       .page11_center h2{
+         font-size:21px;
+         font-family: "Inter", sans-serif;
+         font-weight: 800;
+         margin:3% 0 0 3%;
+         color: #ffffffff;
+       }
+
+       .page11_center a{
+         font-size:15px;
+         font-family: "Inter", sans-serif;
+         /* font-weight: 600; */
+         line-height:16px;
+         margin:6% 0 0 3%;     
+         transition:all 0.2s linear;
+         color: #ffffffff;
+         text-decoration: none;
+       }
+       .page11_center a:hover{
+         text-decoration: underline;
+         color: #6b6b6b;
+       }
+       .page11_right{
+         height:90%;
+         width:26%;
+         /* background-color:#502015; */
+         padding:.1px;
+         display: flex;
+         flex-direction: column;
+         margin-left:15%;
+         margin-top:2%;
+       }
+       .page11_right h1{
+         font-size:21px;
+         font-family: "Inter", sans-serif;
+         font-weight: 800;
+         margin:3% 0 0 3%;
+         color: #ffffffff;
+       }
+
+       .page11_right p{
+         font-size:11.5px;
+         font-family: "Inter", sans-serif;
+         /* font-weight: 600; */
+         line-height:20px;
+         margin:3% 0 0 3%;
+         list-style:none;
+         transition:all 0.2s linear;
+         color: #ffffffff;
+       }
+       .page11_right #span1{
+         font-weight: 800;
+       }
+       .page11_right #span2{
+          font-size:13px;
+         text-decoration: underline;
+         position: relative;
+         top:4%;
+        }
+       .icon{
+         height:65px;
+         width:240px;
+         /* background-color: #ff85a9; */
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         margin:5% 10%;
+       }
+       .icon3{
+         height:90%;
+         width:22%;
+         /* background-color: #e95144; */
+         border-radius:50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border:2px solid #1a1919;
+         transition:all 0.2s linear;
+       }
+       .icon3:hover{
+         border:2px solid #ffffffff;
+       }
+       .icon i{
+         font-size:16px;
+         padding:13px;
+         background-color:#ffffffff;
+         color: #000000;
+         border-radius:50%;
+       }
+       .icon2{
+         font-size:17px;
+         font-weight: 500;
+         position: relative;
+         right:4%;
+         top:4%;
+         }
+         .page12{
+            height:10%;
+            width:100%;
+            background-color: #1a1919;
+            border-top: 2px solid #929191;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+         .page12 p{
+            font-size:17px;
+             color: #ffffffff;
+             /* font-family: "Montserrat", sans-serif; */
+             font-family: "Zilla Slab", serif;
+       
+         }
+        
