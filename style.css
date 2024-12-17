@@ -2323,9 +2323,8 @@ margin-top:2.8%;
          }
          .page12 p{
             font-size:17px;
-             color: #ffffffff;
-             /* font-family: "Montserrat", sans-serif; */
+             font-family: "Montserrat", sans-serif;
              font-family: "Zilla Slab", serif;
-       
+          color: white;
          }
         
